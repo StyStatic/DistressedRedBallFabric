@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fluffysqueakyball",
+  "version": "${version}",
+  "name": "Fluffy Squeaky Ball",
+  "description": "For Laneium",
+  "authors": [
+    "StyStatic"
+  ],
+  "contact": {
+    "website": "StyStatic.tech",
+    "repo": "https://github.com/StyStatic/FluffySqueakyBall"
+  },
+  "license": "MIT",
+  "icon": "assets/FluffySqueakyBall/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "tech.stystatic.fluffysqueakyball.client.FluffySqueakyBallClient"
+    ],
+    "main": [
+      "tech.stystatic.fluffysqueakyball.FluffySqueakyBall"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
