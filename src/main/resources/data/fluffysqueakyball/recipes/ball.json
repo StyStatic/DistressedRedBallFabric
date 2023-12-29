@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_wool"
+    },
+    "D": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "result": {
+    "item": "fluffysqueakyball:distressed_red_ball",
+    "count": 1
+  }
+}

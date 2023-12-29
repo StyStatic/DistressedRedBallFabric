@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "advancedcombat:item/advanced_diamond_sword"
+    "layer0": "fluffysqueakyball:item/distressed_red_ball"
   }
 }
